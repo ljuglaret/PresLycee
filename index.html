@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>Présentation</title>
+    <link rel="stylesheet" href="css/reveal.css" />
+    <link rel="stylesheet" href="css/theme/solarized.css" id="theme" />
+    <link rel="stylesheet" href="css/highlight/zenburn.css" />
+    <link rel="stylesheet" href="css/print/paper.css" type="text/css" media="print" />
+
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides"><section  style="text-align: left;"  data-markdown><script type="text/template">
+
+L'informatique nous accompagne au quotiden, que ce soit pour installer/utiliser une application sur son téléphone, effectuer un paiement en ligne, prendre les transports.
+
+Cet atelier a pour but de donner un aperçu des cas concrets d'utilisation de l'informatique.
+
+</script></section><section ><section data-markdown><script type="text/template">
+
+## Culture génerale
+
+</script></section><section data-markdown><script type="text/template">
+
+### Ce qu'est un langage de programmation
+
+<p style="text-align: left;">
+C'est une notation conventionnelle destinée à formuler des algorithmes
+et produire des programmes informatiques qui les appliquent.   
+Les notions utilisées sont les suivantes :
+</p>
+
+<div style="text-align: left;" class="fragment" data-fragment-index="1"><li>Instructions</li></div>
+ 
+<div style="text-align: left;" class="fragment" data-fragment-index="2"><li>Variables</li> </div>
+
+<div style="text-align: left;"  class="fragment" data-fragment-index="3"><li>Types : Entiers, Caractères, Booléens</li></div>
+
+<div style="text-align: left;"  class="fragment" data-fragment-index="4"><li>Structure de donnés complexe :
+   Listes, <a href = "https://ljuglaret.github.io/Graphes"> Graphes</a>,Arbres, Dictionnaires</li></div>
+
+<div style="text-align: left;" class="fragment" data-fragment-index="5"><li>Fonctions, appelées aussi procédures ou méthodes</li></div>
+
+
+
+</script></section><section data-markdown ><script type="text/template">
+
+### Ce qu'est un paradigme
+
+<p style="text-align: left;" >
+Il s'agit d'un style de programmation.
+<br>
+Chaque langage en reflète un ou plusieurs. 
+<br>
+Parmi eux se trouvent :
+</p>
+<div style="text-align: left;" class="fragment" data-fragment-index="1">L'impératif 
+	<img src="img/c.png" height="50" width="50" >
+	<img src="img/cpp.png" height="50" width="50" >
+	<img src="img/java.png" height="50" width="50" > 
+
+</div>
+
+<div style="text-align: left;" class="fragment" data-fragment-index="2">L'orienté objet
+	<img src="img/cpp.png" height="50" width="50" >
+	<img src="img/java.png" height="50" width="50" > 
+</div>
+
+<div style="text-align: left;"class="fragment" data-fragment-index="3">Le fonctionnel
+	<img src="img/OCaml.png" height="50" width="150" > 
+	<img src="img/haskell.png" height="50" width="50" > 
+</div>
+
+
+<div style="text-align: left;" class="fragment" data-fragment-index="4">Le basé web
+	<img src="img/js.png" height="50" width="50" >
+	<img src="img/php.png" height="50" width="50" > 
+</div>
+
+
+</script></section></section><section ><section data-markdown><script type="text/template">
+
+## Informatique scientifique
+
+</script></section><section data-markdown><script  type="text/template">
+
+### Algorithmes
+
+Quelques applications 
+<p id = "perso"></div>
+
+</script></section><section  data-markdown><script type="text/template">
+
+### Calcul numérique
+
+Cette approche scientifique se base sur un recours aux modélisations informatiques et mathématiques.
+Elle est utile dans de nombreux domaines  : biologie, mécanique, médecine, cartographie,transports.
+
+</script></section></section><section ><section data-markdown><script type="text/template">
+
+## Traitement de l'information
+
+</script></section><section  data-markdown><script type="text/template">
+
+### Traitement de données
+
+
+Cette partie relève en partie du calcul numérique abordé précédemment.
+<div id = "donnees"></div>
+</script></section><section  data-markdown><script type="text/template">
+
+### Image
+
+- Dessiner des fractales
+- Modifier une image :
+
+<div style="text-align: left">
+
+<img class="fragment" data-fragment-index="1" src="img/index.png" height="200" width="360" >
+<img class="fragment" data-fragment-index="2" src="img/augLum.png" height="200" width="360" >
+<img class="fragment" data-fragment-index="3" src="img/b&w.png" height="200" width="360" >
+<img class="fragment" data-fragment-index="4" src="img/flipped.png" height="200" width="360" >
+
+</div>
+
+
+
+</script></section></section><section ><section  data-markdown><script type="text/template">
+
+## Interactions entre l’homme et la machine
+
+</script></section><section data-markdown ><script type="text/template">
+
+### WEB
+
+<div style = "text-align : left">Interaction avec l’utilisateur dans une page Web :</div>
+<div class="fragment" data-fragment-index="1" >
+  <li>Analyser et modifier les méthodes exécutées lors d’un clic
+    sur un bouton d’une page Web</li></div>
+<div class="fragment" data-fragment-index="2">
+
+<div class = bouton-aligne>
+        <button style = "color: green"
+        onclick="fun1()">
+        Vrai
+        </button>
+        <button style = "color: red"
+        onclick="fun2()"
+        >
+        Faux
+        </button>
+        <p id = "demo" style  = "text-align : center"  >
+          </p>
+      </div>
+  </div>
+
+
+<div class="fragment" data-fragment-index="4" style = "text-align : left">
+Formulaire d’une page Web</div>
+<div class="fragment" data-fragment-index="5" style = "text-align : left">
+  <li>Comprendre les mécanismes</li></div>
+<div class="fragment" data-fragment-index="6"style = "text-align : left">
+  <li>Etre capable d'en produire un.</li></div>
+</script></section><section data-markdown><script type="text/template">
+
+### Creation de jeux interactifs
+
+<div id="jeuxInteractifs">
+
+</script></section></section><section  data-markdown  style="text-align: left;" ><script type="text/template">
+
+Organisation de l'atelier
+
+Cet atelier comprend d'une part des applications immédiates et rapides,
+ainsi que la réalisation de projets personnels.
+Et d'autre part des présentations thématiques sur des sujets importants mais complexes.
+</script></section></div>
+    </div>
+
+    <script src="js/reveal.js">
+    </script>
+
+    <script>
+
+ function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+      // Optional libraries used to extend on reveal.js
+      var deps = [
+        { src: './plugin/markdown/marked.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+        { src: './plugin/markdown/markdown.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+        { src: './plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+        { src: './plugin/zoom-js/zoom.js', async: true },
+        { src: './plugin/notes/notes.js', async: true },
+        { src: './plugin/math/math.js', async: true }
+      ];
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        dependencies: deps
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal.getQueryHash() || {};
+
+      var options = extend(defaultOptions, {}, queryOptions);
+    </script>
+<script>
+  function fun1() {
+  document.getElementById("demo").innerHTML = "Votre Choix : Vrai";}
+  
+  function fun2() {
+  document.getElementById("demo").innerHTML = "Votre Choix : Faux";}
+  
+
+  document.addEventListener("keydown", function(e){
+      if((e.keyCode>=37 && e.keyCode <= 40 )||e.keyCode === 32){
+        document.getElementById("demo").innerHTML = "";
+      }
+    });
+
+ </script>
+
+ <script>
+document.body.onload = function() {
+  addElement([
+    "Correcteur orthographique",
+    "Automate cellulaire : Jeu de la vie",
+    "Voyageur du commerce",
+    "Solution des tours de Hanoi",
+    "Le problème des dames"
+  ],"perso"),
+
+  
+  addElement([
+    "Créer ou recupérer des données structurées au format CSV.",
+    "Traiter ces données en apprenant à utiliser les bibliothèques dédiées dans un langage de programmation choisi."
+  ],"donnees"),
+
+  addElement([
+    " Dans le navigateur, en JavaScript, ce qui sera l'occasion d'appliquer les notions précédentes concernant le WEB.",
+    "Via Scratch."
+  ],"jeuxInteractifs")}
+
+
+function addElement (l1,lieu) { 
+  for (var pas = 0; pas < l1.length; pas++) {
+    var newDiv = document.createElement("div"); 
+    var newLi = document.createElement("li");
+    newLi.style.textAlign = "left";
+    newLi.classList.add("fragment");
+    
+    var newContent = document.createTextNode(l1[pas]); 
+    newLi.appendChild(newContent);  
+    document.getElementById(lieu).appendChild(newLi);
+  }
+   
+}
+    </script>
+<script>
+      Reveal.initialize(options);
+</script>
+</body>
+</html>
